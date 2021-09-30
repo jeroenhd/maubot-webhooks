@@ -1,0 +1,17 @@
+endpoints:
+  endpointname:
+    notice: false
+    room_id: '!......@.....'
+    format: JSON
+    template: 'Test data: ${user.name} is ${user.mood}'
+    methods:
+      - POST
+  anotherendpoint:
+    notice: true
+    room_id: '!......@.....'
+    template: 'Test data: ${fromQuery}'
+    methods:
+      - GET
+
+tokens:
+  - SecretTokenReplaceMe

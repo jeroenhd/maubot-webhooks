@@ -1,0 +1,11 @@
+maubot: 0.1.0
+id: nl.jeroenhd.json-webhookbot
+version: 1.0.2
+license: MIT
+modules:
+  - webhookbot
+main_class: WebhookBot
+webapp: true
+config: true
+extra_files:
+  - base-config.yaml
