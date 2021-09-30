@@ -96,3 +96,9 @@ endpoints:
 Errors will be logged to the maubot log. Info logs are used to indicate startup and to track calls to the endpoints.
 
 If something goes wrong and no error message is logged to the maubot log, check the docker/maubot server output!
+
+
+## License
+This software is released under the AGPL license (see LICENSE.md). If this is a problem for you, I'm happy to discuss dual licensing
+for personal or non-profit use; contact me at the email address I used to commit files to this repository
+(you can find it in the commit log).
