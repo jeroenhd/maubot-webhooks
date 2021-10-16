@@ -12,7 +12,7 @@ from mautrix.types import RoomID, MessageType
 from mautrix.util.config import ConfigUpdateHelper, BaseProxyConfig
 
 
-class Config(BaseProxyConfig):
+class WebhookConfig(BaseProxyConfig):
     def do_update(self, helper: ConfigUpdateHelper) -> None:
         helper.copy_dict("endpoints")
         helper.copy('tokens')
@@ -160,4 +160,5 @@ class WebhookBot(Plugin):
 
     @classmethod
     def get_config_class(cls) -> Type['BaseProxyConfig']:
-        return Config
+        return WebhookConfig
+
